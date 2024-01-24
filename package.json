@@ -2,9 +2,9 @@
   "name": "36-clonedisneyplus",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
-    "build": "gulp",
+    "build":"gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

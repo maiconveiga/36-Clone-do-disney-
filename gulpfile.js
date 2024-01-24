@@ -9,5 +9,5 @@ function styles(){
 
 exports.default = styles;
 exports.watch = function(){
-    gulp.watch('src/styles/*.scss', gulp.parallel(styles))
+    gulp.watch('./src/styles/*.scss', gulp.parallel(styles))
 }
