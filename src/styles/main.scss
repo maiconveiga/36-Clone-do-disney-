@@ -1,6 +1,8 @@
 @use 'hero';
 @use 'reset';
 @use 'var';
+@use 'shows';
+@use 'plans';
 
 @font-face{
     font-family: Avenir;
@@ -16,7 +18,6 @@
 
 body{
     background-color: var.$corDeFundo;
-    font-family: Avenir, sans-serif;
 }
 
 @mixin text($fontSize:16px){
@@ -56,4 +57,19 @@ body{
 }
 .title--small{
     @include title(28px);
+}
+
+
+.button{
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    color: var.$corTextoSecundario;
+    background-color: var.$corBotao;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 2vw;
+    margin-bottom: 8px;
+    border: none;
 }
